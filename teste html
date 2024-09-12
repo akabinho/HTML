@@ -1,0 +1,66 @@
+<table>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+
+    <body>
+        <ol type="I">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        </ol>
+        <form action="salvar_dados.php"method="post">
+            <input type="text"placeholder="Digite aqui"><br/>
+            <input type="checkbox">checkbox<br/>
+            <input type="radio">Radio button<br/>
+            <input type="range"><br/>
+            <input type="submit"value="Enviar">
+            </form>
+    </body>
+    <style>
+
+
+        li{
+            font-size: 25px;
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+        }
+
+        body {
+
+            background-image: url(104258.jpg) background-size: 320px 320px;
+        }
+
+        tbody {
+
+            background-size: 300px 300px
+        }
+    </style>
+    <tbody>
+        <img src="104258.jpg" alt="Cão dos Hellsing" title="imagem" />
+        <tr>
+            <td>Feijão</td>
+            <td>R$ 8,75</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Arroz</td>
+            <td>R$ 4,99</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td></td>
+
+
+
+
+            <!-- <img src="avatar.png" alt="Texto alternativo" title="imagem" /> -->
+            <!-- <img src="arquivo_inexistente.jpg" alt="Texto alternativo" title="Outra Figura" /> -->
