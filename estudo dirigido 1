@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioTres</title>
+</head>
+<body>
+    <a id="top"></a>
+    <font size="2" color="Black" face="Arial">
+        <h1> Portal de Informações Sobre Viagens </h1>
+        <td> Deseja saber mais sobre os destinos? </td> <a href="url"> Clique aqui para ir à seção de destinos.</a>
+        <p></p>
+        <td> Para reservar passagens, visite nosso parceiro </td> <a href="url"> Expedia.</a>
+        <h2> Calendário de Promoções </h2>
+        <table border="1">
+            <tr>
+                <td> Mês </td>
+                <td> Promoção </td>
+                <td> Desconto </td>
+            </tr>
+            <tr>
+                <td> Janeiro </td>
+                <td> Promoção de Verão </td>
+                <td> 30% </td>
+            </tr>
+            <tr>
+                <td> Julho </td>
+                <td> Promoção de Inverno </td>
+                <td> 25% </td>
+            </tr>
+            <tr>
+                <td> Dezembro </td>
+                <td> Fim de Ano </td>
+                <td> 40% </td>
+            </tr>
+        </table>
+        <h2> Imagens dos Destinos </h2>
+        <figure>
+        <img src = "https://i0.wp.com/www.megainteressante.com.br/site/wp-content/uploads/2024/01/monte-everest-a-montanha-mais-alta-do-planeta-2.jpg?ssl=1" alt = "Projeto 1" width="300" height = "200">
+        <figcaption> Monte Everest </figcaption>
+        <img src = "https://multiversonoticias.com.br/wp-content/uploads/2024/04/triangulo-das-bermudas.jpg" alt = "Projeto 1" width="300" height = "200">
+        <figcaption> Trinagulo das Bermudas </figcaption>
+        </figure>
+
+        <h2> Destino Populares </h2>
+        <dl>
+            <dt> Rio de Janeiro </dt>
+            <dd> Cidade famosa por suas prais e etc...</dd>
+            <dt> Salvador </dt>
+            <dd> Cidade famosa por ser a melhor do país</dd>
+            <dt> Nova Iorque </dt>
+            <dd> Cidade bastante popular</dd>
+        </dl>
+        <h2> Entre em Contato </h2>
+        <form action="salvar_dados.php" method="post">
+            <input type="text" placeholder=""> <br />
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+
+    <h2> Entre em Contato </h2>
+<form action="salvar_dados.php" method="post">
+    <label for="nome">Nome Completo:</label><br />
+    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br />
+
+    <label for="email">E-mail:</label><br />
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br />
+    
+    <label for="destino">Destino de Preferência:</label><br />
+    <select name="destinos" id="destino">
+        <option value = "riodejaneiro"> Rio de Janeiro</option>
+        <option value = "riodejaneiro"> Salvador</option>
+        <option value = "riodejaneiro"> Nova Iorque</option>
+    </select> <br />
+    <label for="mensagem">Mensagem:</label><br />
+    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" cols="40" required></textarea><br />
+
+    <input type="submit" value="Enviar">
+</form>
+</font>
+    </div>
+    <a href="#top">Voltar ao Topo</a>
+</body>
+</html>
