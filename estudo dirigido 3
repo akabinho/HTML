@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                content="width=device-width, initial-scale=1.0">
+            <title>ExercicioUm</title>
+        </head>
+        <body>
+        <font size="2" color="Black" face="Arial">
+            <h1> Perfil de Usuário </h1>
+            <td> Para mais informações, visite o </td> <a href="url"> perfil completo.</a>
+            <h2> Informações Pessoais </h2>
+            <table border="1">
+                <tr>
+                    <td>Campo</td>
+                    <td>Detalhe</td>
+                </tr>
+                <tr>
+                    <td>Nome</td>
+                    <td>Alexandre Vieira</td>
+                </tr>
+                <tr>
+                    <td>Idade</td>
+                    <td>19 anos</td>
+                </tr>
+                <tr>
+                    <td>Ocupação</td>
+                    <td>Desenvolvedor Web</td>
+                </tr>
+            </table>
+            <form action="salvar_dados.php" method="post">
+                <input type="text" placeholder="Digite Aqui"> <br />
+                <input type="checkbox"> Concordo com os Termos<br />
+                <input type="radio"> Ajuste o brilho<br />
+                <input type="range"> <br />
+                <input type="submit" value="Enviar">
+            </form>
+            <h2> Projeto Recentes </h2>
+            <td> Aqui estão alguns dos meus projetos recentes: </td>
+            <p></p>
+            <img src = "https://idocode.com.br/wp-content/uploads/2021/07/programacao-scaled.jpg" alt = "Projeto 1" width="300" height = "200">
+            <img src = "https://www.locaweb.com.br/blog/wp-content/uploads/2021/04/7-dicas-que-vao-otimizar-sua-rotina-de-programador-freelancer.jpg" alt = "Projeto 1" width="300" height = "200">
+            <img src = "https://img.freepik.com/fotos-premium/local-de-trabalho-do-programador-com-computadores_249974-14490.jpg" alt = "Projeto 1" width="300" height = "200">
+            <h2> Habilidades </h2>
+            <ol type = "1">
+                <li> HTML & CSS </li>
+                <li> JavaScript </li>
+                <li> Pythom </li>
+                <li> React </li>
+            </ol>
+        </body>
+    </font>
+</html>
